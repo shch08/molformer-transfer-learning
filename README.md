@@ -4,7 +4,7 @@ Transfer learning, data selection &amp; PEFT techniques from scratch on MolForme
 
 # MolFormer Transfer Learning with Data Selection & PEFT
 
-This project explores **transfer learning** techniques on the [MolFormer](https://huggingface.co/ibm-research/MoLFormer-XL-both-10pct) model for **molecular property prediction**, combining **data selection strategies** and **parameter-efficient fine-tuning (PEFT)** methods.
+This project explores **transfer learning** techniques on the open source [MolFormer](https://huggingface.co/ibm-research/MoLFormer-XL-both-10pct) model for **molecular property prediction**, combining **data selection strategies** and **parameter-efficient fine-tuning (PEFT)** methods.
 
 ## 🧠 Project Overview
 
