@@ -33,7 +33,12 @@ We investigate how to adapt a pretrained MolFormer model to new molecular tasks 
 ## 🧪 Datasets
 
 - **Lipophilicity**: [MoleculeNet Benchmark](https://huggingface.co/datasets/scikit-fingerprints/MoleculeNet_Lipophilicity)
-- **External dataset**: *(Specify the dataset name and source if possible)*
+- **External dataset**: An unlabeled external dataset (structure-only) provided for the project. Used for:
+  - **Unsupervised masked language modeling**
+  - **Influence function-based sample selection**
+  - Dataset is available in the `data/` directory as `External-Dataset_for_Task2.csv`.
+
+> ⚠️ _Note: The original source of the external dataset is unknown, and it is included here for academic/non-commercial use only._
 
 ## 🛠️ Techniques & Tools
 
