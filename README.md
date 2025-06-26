@@ -61,6 +61,18 @@ We investigate how to adapt a pretrained MolFormer model to new molecular tasks 
 | LoRA (PEFT)           | 0.441 | 0.496 | 0.686 | 0.385           | ~0.3%               | 30
 | iA³ (PEFT)            | 0.761 | 0.687 | 0.486 | 0.572           | ~0.04%               | 30
 
+## 📄 Project Report
+
+See [final_report.pdf](./NNTI_Project_Report.pdf) for a comprehensive explanation of our methodology, experimental setup, results, and analysis.
+
+## 👥 Team
+
+This project was developed collaboratively by:
+
+- **Shreyansh Chakraborty** – PEFT implementations (BitFit, LoRA, iA³), MC Dropout uncertainty selection, final evaluation pipeline.
+- **Nischal Narendra Giriyan** – LISSA influence function integration.
+- **Michael Gallinger** – MolFormer training on lipophilicity, masked language modeling, metric visualization.
+
 
 ## 🔗 References
 
