@@ -47,7 +47,7 @@ We investigate how to adapt a pretrained MolFormer model to new molecular tasks 
 - Influence functions (LISSA)
 - Monte Carlo Dropout for uncertainty estimation
 - PEFT: BitFit, LoRA, iA³
-- PyTorch, HuggingFace Transformers (or other libs used)
+- PyTorch, HuggingFace Transformers
 
 ## 📊 Results
 
