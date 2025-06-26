@@ -1,0 +1,240 @@
+'PROJECT_ROOT=/home/neuronet_team130/torch-condor-template'
+Running 'run.sh' in conda env nnti
+Mon Mar 10 10:49:35 2025       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 550.127.08             Driver Version: 550.127.08     CUDA Version: 12.4     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  Tesla P100-PCIE-16GB           Off |   00000000:08:00.0 Off |                    0 |
+| N/A   28C    P0             27W /  250W |       3MiB /  16384MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+GPU-7ba7fd77
+neuronet_team130-83175.0-uller.hpc.uni-saarland.de
+/home/neuronet_team130/miniconda3/envs/nnti/bin/python
+Package                   Version
+------------------------- ----------------
+aiohappyeyeballs          2.5.0
+aiohttp                   3.11.13
+aiosignal                 1.3.2
+anyio                     4.8.0
+argon2-cffi               23.1.0
+argon2-cffi-bindings      21.2.0
+arrow                     1.3.0
+asttokens                 3.0.0
+async-lru                 2.0.4
+attrs                     25.1.0
+babel                     2.17.0
+beautifulsoup4            4.13.3
+bleach                    6.2.0
+Brotli                    1.1.0
+cached-property           1.5.2
+certifi                   2025.1.31
+cffi                      1.17.1
+charset-normalizer        3.4.1
+colorama                  0.4.6
+comm                      0.2.2
+contourpy                 1.3.1
+cycler                    0.12.1
+datasets                  3.3.2
+debugpy                   1.8.13
+decorator                 5.2.1
+defusedxml                0.7.1
+dill                      0.3.8
+exceptiongroup            1.2.2
+executing                 2.1.0
+fastjsonschema            2.21.1
+filelock                  3.17.0
+fonttools                 4.56.0
+fqdn                      1.5.1
+frozenlist                1.5.0
+fsspec                    2024.12.0
+gmpy2                     2.1.5
+h11                       0.14.0
+h2                        4.2.0
+hpack                     4.1.0
+httpcore                  1.0.7
+httpx                     0.28.1
+huggingface_hub           0.29.2
+hyperframe                6.1.0
+idna                      3.10
+importlib_metadata        8.6.1
+importlib_resources       6.5.2
+ipykernel                 6.29.5
+ipython                   9.0.0
+ipython_pygments_lexers   1.1.1
+isoduration               20.11.0
+jedi                      0.19.2
+Jinja2                    3.1.6
+joblib                    1.4.2
+json5                     0.10.0
+jsonpointer               3.0.0
+jsonschema                4.23.0
+jsonschema-specifications 2024.10.1
+jupyter_client            8.6.3
+jupyter_core              5.7.2
+jupyter-events            0.12.0
+jupyter-lsp               2.2.5
+jupyter_server            2.15.0
+jupyter_server_terminals  0.5.3
+jupyterlab                4.3.5
+jupyterlab_pygments       0.3.0
+jupyterlab_server         2.27.3
+kiwisolver                1.4.7
+MarkupSafe                3.0.2
+matplotlib                3.10.1
+matplotlib-inline         0.1.7
+mistune                   3.1.2
+mpmath                    1.3.0
+multidict                 6.1.0
+multiprocess              0.70.16
+munkres                   1.1.4
+nbclient                  0.10.2
+nbconvert                 7.16.6
+nbformat                  5.10.4
+nest_asyncio              1.6.0
+networkx                  3.4.2
+notebook                  7.3.2
+notebook_shim             0.2.4
+numpy                     2.2.3
+overrides                 7.7.0
+packaging                 24.2
+pandas                    2.2.3
+pandocfilters             1.5.0
+parso                     0.8.4
+pexpect                   4.9.0
+pickleshare               0.7.5
+pillow                    11.1.0
+pip                       25.0.1
+pkgutil_resolve_name      1.3.10
+platformdirs              4.3.6
+prometheus_client         0.21.1
+prompt_toolkit            3.0.50
+propcache                 0.2.1
+psutil                    7.0.0
+ptyprocess                0.7.0
+pure_eval                 0.2.3
+pyarrow                   18.1.0
+pycparser                 2.22
+Pygments                  2.19.1
+pyparsing                 3.2.1
+PySide6                   6.8.1
+PySocks                   1.7.1
+python-dateutil           2.9.0.post0
+python-json-logger        2.0.7
+pytz                      2024.1
+PyYAML                    6.0.2
+pyzmq                     26.2.1
+referencing               0.36.2
+regex                     2024.11.6
+requests                  2.32.3
+rfc3339_validator         0.1.4
+rfc3986-validator         0.1.1
+rpds-py                   0.23.1
+safetensors               0.5.3
+scikit-learn              1.6.1
+scipy                     1.15.2
+Send2Trash                1.8.3
+setuptools                75.8.2
+shiboken6                 6.8.1
+six                       1.17.0
+sniffio                   1.3.1
+soupsieve                 2.5
+stack_data                0.6.3
+sympy                     1.13.3
+terminado                 0.18.1
+threadpoolctl             3.5.0
+tinycss2                  1.4.0
+tokenizers                0.21.0
+tomli                     2.2.1
+torch                     2.5.1.post303
+torchaudio                2.5.1a0
+torchvision               0.20.1a0+9f8010e
+tornado                   6.4.2
+tqdm                      4.67.1
+traitlets                 5.14.3
+transformers              4.49.0
+types-python-dateutil     2.9.0.20241206
+typing_extensions         4.12.2
+typing_utils              0.1.0
+tzdata                    2025.1
+uri-template              1.3.0
+urllib3                   2.3.0
+wcwidth                   0.2.13
+webcolors                 24.11.1
+webencodings              0.5.1
+websocket-client          1.8.0
+xxhash                    3.5.0
+yarl                      1.18.3
+zipp                      3.21.0
+zstandard                 0.23.0
+Using device: cuda
+Saved influence results to lipophilicity_influence_scores.csv
+Top influence data points are: 
+                                                SMILES  Label  influence_score
+216  CN(C)c1ccc([C@@H]2N[C@H](C(=O)O)Cc3c4ccccc4[nH...  1.224       -15.459059
+219  CN(C)c1ccc([C@@H]2N[C@@H](C(=O)O)Cc3c4ccccc4[n...  1.224       -15.434596
+44   O=C(O)[C@H]1Cc2c3ccccc3[nH]c2[C@@H](c2ccc(F)cc...  1.662       -13.883024
+48                     COc1cc(Cc2cnc(N)nc2N)cc(Br)c1OC  1.776       -13.777371
+55                     O=C(O)c1cc(-c2ccncc2)nc2ccccc21  1.448       -13.638817
+Original Lipophilicity Training Dataset Size: 3360
+Number of Selected Samples: 100
+Final Merged Training Dataset Size: 3460
+Training-Epoch Nr.1 finished!
+Training-Epoch Nr.2 finished!
+Training-Epoch Nr.3 finished!
+Training-Epoch Nr.4 finished!
+Training-Epoch Nr.5 finished!
+Training-Epoch Nr.6 finished!
+Training-Epoch Nr.7 finished!
+Training-Epoch Nr.8 finished!
+Training-Epoch Nr.9 finished!
+Training-Epoch Nr.10 finished!
+Training-Epoch Nr.11 finished!
+Training-Epoch Nr.12 finished!
+Training-Epoch Nr.13 finished!
+Training-Epoch Nr.14 finished!
+Training-Epoch Nr.15 finished!
+Training-Epoch Nr.16 finished!
+Training-Epoch Nr.17 finished!
+Training-Epoch Nr.18 finished!
+Training-Epoch Nr.19 finished!
+Training-Epoch Nr.20 finished!
+Training-Epoch Nr.1 finished!
+Training-Epoch Nr.2 finished!
+Training-Epoch Nr.3 finished!
+Training-Epoch Nr.4 finished!
+Training-Epoch Nr.5 finished!
+Training-Epoch Nr.6 finished!
+Training-Epoch Nr.7 finished!
+Training-Epoch Nr.8 finished!
+Training-Epoch Nr.9 finished!
+Training-Epoch Nr.10 finished!
+Training-Epoch Nr.11 finished!
+Training-Epoch Nr.12 finished!
+Training-Epoch Nr.13 finished!
+Training-Epoch Nr.14 finished!
+Training-Epoch Nr.15 finished!
+Training-Epoch Nr.16 finished!
+Training-Epoch Nr.17 finished!
+Training-Epoch Nr.18 finished!
+Training-Epoch Nr.19 finished!
+Training-Epoch Nr.20 finished!
+              Metric  Baseline Model  Influence based data selected model
+0                MSE        0.382057                             0.354360
+1                MAE        0.474727                             0.432725
+2           R² Score        0.716086                             0.736668
+3  Margin for Median        0.379183                             0.317338
+
+Depth = 10, damping = 0.01
